@@ -49,7 +49,7 @@ avengersApp.flipCard = () => {
 avengersApp.init = () => {
 
     const buildUrl = (characterName) => {
-        let url = `http://gateway.marvel.com/v1/public/characters?name=${characterName}&apikey=b4c2b02346b5895ca2d6abe8d203415a`;
+        let url = `https://gateway.marvel.com/v1/public/characters?name=${characterName}&apikey=b4c2b02346b5895ca2d6abe8d203415a`;
         let ts = new Date().getTime();
         let hash = CryptoJS.MD5(
           ts + "ec74e168466fc856897459d40246f2f364d83846" + "b4c2b02346b5895ca2d6abe8d203415a"
