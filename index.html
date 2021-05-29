@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"
+    type="text/css" charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet"> 
+    <title>Jennifer Blakney - Project 2</title>
+</head>
+<body>
+  <!-- don't forget ur: css, js, jquery -->
+  <!-- header nav -->
+  <header>
+    <nav id="home-link">
+      <div class="flex-container-1">
+        <div class="logo">
+            <img src="./assets/logo.jpg" alt="avengers logo">
+        </div>
+        <h1>Save Our Reality!</h1>
+        <ul class="nav-menu">
+            <li><a href="#home-link">Home</a></li>
+            <li><a href="#about-link">About</a></li>
+            <li><a href="#assemble-link">Assemble!</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero-header">
+    </div>
+  </header>
+  
+  <div class="body">
+    <div id="about-link" class="wrapper">
+      <h2>About</h2>
+      <p class="about">
+      The portals have opened and all the Avengers have returned from being erased by Thanos! Click on a character name to find out more about them.
+      </p>
+    </div>
+   
+    <div id="assemble-link" class="wrapper">
+      <h2>Avengers... ASSEMBLE!</h2>
+      <div class="display-container">
+        <div class="avengers-list1">
+          <ul>
+            <li><a>Iron Man</a></li>
+            <li><a>Captain America</a></li>
+            <li><a>Thor</a></li>
+            <li><a>Hulk</a></li>
+            <li><a>Hawkeye</a></li>
+            <li><a>Carol Danvers</a></li>
+            <li><a>Ant-Man <span class="bracket">(</span>Scott Lang<span class="bracket">)</span></a></li>
+            <li><a>Falcon</a></li>
+            <li><a>Spider-Man</a></li>
+            <li><a>Scarlet Witch</a></li>
+          </ul>
+        </div>
+          <!-- <div class="avengers-card">
+            <p>Click on a character name to find out their powers/strengths</p>
+          </div> -->
+
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="avengers-container">
+                <!-- dynamic content goes here! -->
+                  <div class="avengers-card-active">
+                    <h3 class="avenger-title">Name:</h3>
+                    <p class="name"></p>
+                      <div class="image-container">
+                        <img class="avenger-image" src="./assets/avengers-endgame-poster.jpg" alt="official avengers endgame poster">
+                      </div>
+                        <h4>Info:</h4>
+                        <p class="info"></p>  
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+          <div class="avengers-list2">
+              <ul>
+                <li><a>Black Panther</a></li>
+                <li><a>Doctor Strange</a></li>
+                <li><a>Mantis</a></li>
+                <li><a>Rocket Raccoon</a></li>
+                <li><a>Drax</a></li>
+                <li><a>Nebula</a></li>
+                <li><a>Winter Soldier</a></li>
+                <li><a>Gamora</a></li>
+                <li><a>Peter Quill</a></li>
+                <li><a>Groot</a></li>
+              </ul>
+            </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+
+  <footer>
+    <p>Created @ Juno College</p> 
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

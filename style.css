@@ -1,0 +1,219 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+html {
+    font-size: 125%;
+    font-family: sans-serif;
+  }
+
+  body,
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  body {
+    background-color: #212322; 
+  }
+
+
+  @font-face {
+    font-family: 'avengeance_heroic_avengerRg';
+    src: url(./assets/webfontkit-20210519-210638/avengerfont-webfont.woff2) format('woff2'),
+         url(./assets/webfontkit-20210519-210638/avengerfont-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  nav ul {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: avengeance_heroic_avengerRg;
+    font-size: 2.25rem;
+    text-align: left;
+    color: #e5e1e0;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 200px;
+    top: 5px;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: avengeance_heroic_avengerRg;
+    color: #f7deb4;
+    font-size: 2.25rem;
+    letter-spacing: 3px;
+  }
+
+  h3 {
+    color: #f7deb4;
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    color: #f7deb4;
+    font-size: 1.5rem;
+  }
+
+  p {
+    text-align: center;
+    color: #f0e5d8;
+  }
+
+  .wrapper {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .hero-header {
+    background-image: url(./assets/portalscene2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+  }
+
+  .flex-container-1 {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+    padding: 20px 20px;
+  }
+
+  .logo img {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    height: 80px;
+    width: 120px;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    position: relative;
+    font-family: Marvel;
+  }
+
+  .nav-menu a {
+    font-size: 1.5rem;
+    color: #f0e5d8;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 20px 30px;
+  }
+
+  .display-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .about {
+    font-family: Marvel;
+    font-size: 1.5rem;
+    color: #e5e1e0;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .bracket {
+    font-family: Marvel;
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  .avengers-list1 {
+    text-align: left;
+    font-family: avengeance_heroic_avengerRg;
+    color: #c8c1b9;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.75;
+    
+  }
+  
+  .avengers-card {
+    font-family: Marvel;
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    display: none;
+  }
+
+  .flipper {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform 1.25s;
+    transform-style: preserve-3d;
+  }
+  .flipped {
+    transform: rotateY(360deg) !important;
+  }
+
+  .avengers-card-active {
+    font-family: Marvel;
+    text-align: center;
+    color: #e5e1e0
+
+    height: 600px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 3%;
+
+    background-color: #302f49;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 20px;
+
+    /* display: none; */
+  }
+
+  .image-container img {
+    max-width: 50%;
+    box-shadow: 10px 10px #7e6377;
+  }
+
+  .avengers-list2 {
+    text-align: right;
+    font-family: avengeance_heroic_avengerRg;
+    color: #c8c1b9;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.75;
+  }
+
+  footer {
+    background-color: black;
+    padding: 10px;
+  }
+
+  footer p {
+    font-family: Marvel;
+    font-size: 1.25rem;
+    color: #e5e1e0;
+    text-align: center;
+    font-weight: bolder;
+  }
